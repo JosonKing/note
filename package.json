@@ -1,0 +1,16 @@
+{
+  "name": "josonking.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy-gh": "yarn build && bash scripts/deploy-gh.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "repository": "git@github.com:JosonKing/josonking.github.io.git",
+  "author": "Joson5 <wangsanmu5@163.com>",
+  "license": "MIT"
+}

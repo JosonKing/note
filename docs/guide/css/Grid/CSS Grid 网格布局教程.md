@@ -1,3 +1,13 @@
+---
+title: 本博客搭建教程
+date: '2019-06-01'
+type: 技术
+tags: js|vue
+sidebarDepth: 3
+sidebar: auto
+note: 基于vuepress的个人博客，实现了博客自动路由、默认主题修改、elementUI库集成、mp3背景播放、标签墙、评论功能
+---
+[[toc]]
 # 一、概述
 Grid 布局与 Flex 布局有一定的相似性，都可以指定容器内部多个项目的位置。
 
