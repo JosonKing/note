@@ -5,12 +5,14 @@ module.exports = {
     logo: '/logo.jpg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
+      { text: 'Guide', link: '/guide/npm/started' },
     ],
     sidebar: [
       ['/guide/npm/started', 'npm概览'],
       ['/guide/module/module', 'module概览'],
       // ['/guide/react/docs/安装/开始', 'react概览'],
+      // ['/guide/react/', 'react'],
+      ['/guide/react/docs/install/started', '开始'],
     ],
     // sidebar: 'auto',
     lastUpdated: 'Last Updated', // string | boolean
