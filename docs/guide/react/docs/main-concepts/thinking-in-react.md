@@ -1,6 +1,7 @@
 > React 最棒的部分之一是引导我们思考如何构建一个应用。
 ### 从设计稿开始
-![设计稿](images/核心概念01.png)
+<!-- ![设计稿](images/核心概念01.png) -->
+![设计稿](/imgs/guide/react/docs/main-concepts/thinking-in-react/1.png)
 
 对应数据：
 ```
@@ -16,7 +17,7 @@
 
 ### 一：将设计好的 UI 划分为组件层级
 将组件当作一种函数或者是对象来考虑，根据单一功能原则来判定组件的范围。一个组件原则上只能负责一个功能。如果它需要负责更多的功能，这时候就应该考虑将它拆分成更小的组件。将 UI 分离为组件，其中每个组件需与数据模型的某部分匹配。
-![组件层级](images/心概念02.png)
+![组件层级](/imgs/guide/react/docs/main-concepts/thinking-in-react/2.png)
 1. FilterableProductTable (橙色): 是整个示例应用的整体
 2. SearchBar (蓝色): 接受所有的用户输入
 3. ProductTable (绿色): 展示数据内容并根据用户输入筛选结果
