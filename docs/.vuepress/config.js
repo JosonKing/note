@@ -13,6 +13,7 @@ module.exports = {
       // ['/guide/react/docs/安装/开始', 'react概览'],
       // ['/guide/react/', 'react'],
       ['/guide/react/docs/install/started', '开始'],
+      ['/guide/react/docs/main-concepts/thinking-in-react', 'react哲学'],
     ],
     // sidebar: 'auto',
     lastUpdated: 'Last Updated', // string | boolean
