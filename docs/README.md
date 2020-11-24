@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.jpg
 actionText: 起航 →
-actionLink: /guide/npm/started
+actionLink: /guide/react/
 features:
 - title: 贪财
   details: 
