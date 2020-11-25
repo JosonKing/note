@@ -11,7 +11,29 @@ module.exports = {
     sidebar: {
       '/note/': [
         {
-          title: 'react',
+          title: 'CSS',
+          collapsable: false,
+          children: [
+            '/note/css/grid',
+            // '/note/css/grid-demo',
+          ]
+        },
+        {
+          title: 'npm',
+          collapsable: false,
+          children: [
+            '/note/npm/started',
+          ]
+        },
+        {
+          title: 'module',
+          collapsable: false,
+          children: [
+            '/note/module/module',
+          ]
+        },
+        {
+          title: 'React',
           collapsable: false,
           children: [
             '/note/react/installation',
@@ -20,13 +42,30 @@ module.exports = {
             '/note/react/hook',
           ]
         },
+        {
+          title: 'react-router',
+          collapsable: false,
+          children: [
+            '/note/react-router/guide',
+            '/note/react-router/started',
+          ]
+        },
+        {
+          title: 'redux',
+          collapsable: false,
+          children: [
+            '/note/redux/started',
+            '/note/redux/action',
+            '/note/redux/react-redux',
+          ]
+        },
       ],
       '/blog/': [
         {
-          title: '随笔',
+          title: '博客',
           collapsable: false,
           children: [
-            '/note/react/started',
+            '/note/react/installation',
           ]
         },
       ]
