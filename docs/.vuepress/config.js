@@ -4,26 +4,18 @@ module.exports = {
   themeConfig: {
     logo: '/logo.jpg',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/react/' },
+      { text: '笔记', link: '/note/' },
+      { text: '前端', link: '/front-end/' },
+      { text: '博客', link: '/blog/' },
     ],
-    // sidebar: [
-    //   ['/guide/npm/started', 'npm概览'],
-    //   ['/guide/module/module', 'module概览'],
-    //   // ['/guide/react/docs/安装/开始', 'react概览'],
-    //   // ['/guide/react/', 'react'],
-    //   ['/guide/react/docs/install/started', '开始'],
-    //   ['/guide/react/docs/main-concepts/composition-vs-inheritance', '组合VS继承'],
-    //   ['/guide/react/docs/main-concepts/thinking-in-react', 'react哲学'],
-    // ],
     sidebar: [
       {
         title: 'react',
         collapsable: false,
         children: [
-          '/guide/react/docs/install/started',
-          '/guide/react/docs/main-concepts/composition-vs-inheritance',
-          '/guide/react/docs/main-concepts/thinking-in-react',
+          '/note/react/started',
+          '/note/react/composition-vs-inheritance',
+          '/note/react/thinking-in-react',
         ]
       },
     ],
