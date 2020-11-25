@@ -8,17 +8,40 @@ module.exports = {
       { text: '前端', link: '/front-end/' },
       { text: '博客', link: '/blog/' },
     ],
-    sidebar: [
-      {
-        title: 'react',
-        collapsable: false,
-        children: [
-          '/note/react/started',
-          '/note/react/composition-vs-inheritance',
-          '/note/react/thinking-in-react',
-        ]
-      },
-    ],
+    sidebar: {
+      '/note/': [
+        {
+          title: 'react',
+          collapsable: false,
+          children: [
+            '/note/react/installation',
+            '/note/react/main-concepts',
+            '/note/react/advanced-guides',
+            '/note/react/hook',
+          ]
+        },
+      ],
+      '/blog/': [
+        {
+          title: '随笔',
+          collapsable: false,
+          children: [
+            '/note/react/started',
+          ]
+        },
+      ]
+    },
+    // sidebar: [
+    //   {
+    //     title: 'react',
+    //     collapsable: false,
+    //     children: [
+    //       '/note/react/started',
+    //       '/note/react/composition-vs-inheritance',
+    //       '/note/react/thinking-in-react',
+    //     ]
+    //   },
+    // ],
     // sidebar: {
     //   '/guide/react/': [
     //     '/guide/react/docs/install/started',
