@@ -23,6 +23,11 @@ script.setAttribute('EVENT',"InitializationCompleted()"); // 监听消息
 document.body.appendChild(script);
 ```
 
+最终页面生成内容：
+``` JavaScript
+<script type="text/javascript" src="./jquery.js"></script>
+```
+
 ## React添加
 
 ``` JavaScript
