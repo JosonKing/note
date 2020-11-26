@@ -44,7 +44,7 @@ componentWillMount() {
 ``` JavaScript
 created() {
   let script = document.createElement('script');
-  script.id = 'hspScript';
+  script.id = 'myScript';
   script.type = 'text/javascript'
   
   // 以下是监听指定dom的消息，domId为监听的dom的id，不需要可忽略
