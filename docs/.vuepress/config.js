@@ -62,10 +62,10 @@ module.exports = {
       ],
       '/blog/': [
         {
-          title: '博客',
+          title: 'JavaScript',
           collapsable: false,
           children: [
-            '/note/react/installation',
+            '/blog/javascript/add-script',
           ]
         },
       ]
